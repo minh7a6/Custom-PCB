@@ -1,3 +1,3 @@
-This is ds18b20 custom board based on Wemos D1 Mini. For Arduino coding, choose Wemos D1 R2 & Mini as your board.
-There is an error: GPIO4 and GPIO5 is in wrong position, they should be in the reverse way. Notice that when you code
+This is ds18b20 Temperature sensor custom board based on Wemos D1 Mini. For Arduino coding, choose Wemos D1 R2 & Mini as your board.
+There is an error: GPIO4 and GPIO5 is in wrong position, they should be in the reverse way. Notice that when you code.
 Enjoy :)
