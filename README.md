@@ -1,4 +1,4 @@
-# Custom-PCB-Eagle
+# Custom-PCB
 This is where I put my pcb and schematic that I created and used for projects.
 PCB is created in Autodesk Eagle.
 For company to make those and get all the , I would recommend easyeda and lcsc for those since they are fast and quite cheap
