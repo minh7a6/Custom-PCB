@@ -16508,6 +16508,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R8" library="adafruit" deviceset="R-US_" device="M0805" value="1k"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1"/>
+<part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -16574,6 +16575,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="R8" gate="G$1" x="238.76" y="104.14" rot="R270"/>
 <instance part="LED3" gate="G$1" x="238.76" y="93.98"/>
 <instance part="D3" gate="G$1" x="167.64" y="116.84"/>
+<instance part="C13" gate="G$1" x="114.3" y="68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16657,6 +16659,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="C10" gate="G$1" pin="2"/>
 <junction x="78.74" y="73.66"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="68.58" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<junction x="109.22" y="73.66"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -17269,6 +17275,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="43.18" y1="68.58" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <junction x="43.18" y="63.5"/>
 <label x="45.72" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="U1" gate="U1" pin="AREF"/>
+<wire x1="119.38" y1="68.58" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
